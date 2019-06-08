@@ -16,10 +16,5 @@ const promiseMeAString=(argument)=>{
             reject("You have failed me!")
           })
 }
-getTatooineResidents()
-.then(res => console.log(res.body))
-.catch(err => console.log(err))
-promiseMeAString()
-.then(res => console.log(res.body))
-.catch(err => console.log(err))
-module.exports = {getTatooineResidents,promiseMeAString,residents}
+
+module.exports = {getTatooineResidents,promiseMeAString}
