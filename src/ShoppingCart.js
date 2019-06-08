@@ -1,6 +1,5 @@
 class ShoppingCart{
-    constructor(name){
-        this.name=name
+    constructor(){
         this.items=[]
     }
     getItems(){
